@@ -1,0 +1,39 @@
+
+/* kdrama.ejs */
+
+.KdramaLatestTrending{
+     margin-top: 22vh;
+    
+}
+
+
+.KdramaLatestTrendingText{
+     font-size: x-large;
+     margin-left: 20px;
+     position: absolute;
+     top: 15vh;
+     z-index: -1000000;
+}
+
+.KdramaLatestTrendingCarousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.KdramaleftButtonCarousel{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.KdramarightButtonCarousel{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}

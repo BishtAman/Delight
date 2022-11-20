@@ -1,0 +1,152 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+body {
+     background-color: #1B1736;
+     color: white;
+     width: 100vw;
+}
+
+a {
+     text-decoration: none;
+     color: white;
+     /* color: black; */
+     /* margin-top: -10px; */
+}
+
+
+
+.banner {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+}
+
+.movieBanner {
+     width: 76vw;
+     height: 600px;
+     margin-top: 70px;
+}
+
+
+.categoryBanner {
+     display: flex;
+     flex-direction: column;
+     margin-top: 25px;
+     justify-content: center;
+}
+
+.categoryBanner img {
+     width: 1430px;
+     height: 628.85px;
+}
+
+footer {
+     margin: 40px 0px;
+}
+
+footer p {
+     text-align: center;
+}
+
+.aliveContent:hover::before {
+     content: 'Watch Now!';
+     border: 1px solid white;
+     padding: 0px 11px;
+     position: absolute;
+     bottom: -50px;
+     opacity: 0;
+     font-size: 44px;
+     left: 220px;
+     animation: cover 200ms forwards ease-out;
+}
+
+.aliveContent::before {
+     content: 'Watch Now!';
+     position: absolute;
+     border: 1px solid white;
+     padding: 0px 11px;
+     bottom: -50px;
+     opacity: 0;
+     font-size: 44px;
+     left: 220px;
+     animation: coverReverse 200ms forwards ease-in-out;
+}
+
+@keyframes cover {
+     33% {
+          bottom: -10px;
+          opacity: 0.4;
+     }
+
+     66% {
+          bottom: 0;
+          opacity: 0.6;
+     }
+
+     100% {
+          bottom: 40px;
+          opacity: 1;
+     }
+}
+
+@keyframes coverReverse {
+     from {
+          bottom: 40px;
+          opacity: 1;
+
+     }
+
+     to {
+          bottom: -50px;
+          opacity: 0;
+     }
+}
+
+
+.darkMode{
+     position: fixed;
+     background-color: #1B1736;
+     z-index: 110;
+     height: 58px;
+     /* filter: invert(1); */
+     width: 55px;
+     top: 50vh;
+     border: 1px solid white;
+     padding: 15px;
+     border-radius: 0px 15px 15px 0px;
+}
+
+.bi-brightness-high-fill{
+     width: 25px;
+     height: 25px;
+     position: absolute;
+     display: none;
+}
+
+.bi-moon-fill{
+     width: 25px;
+     height: 25px;
+     /* filter: invert(1); */
+     position: absolute;
+}
+
+.goToTop{
+     position: fixed;
+     z-index: 1000;
+     bottom: 21px;
+     right: 27px;
+}
+
+.bi-arrow-up-circle-fill{
+     width: 50px;
+     height: 50px;
+}
+
+
+
+

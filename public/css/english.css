@@ -1,0 +1,78 @@
+
+/* english.ejs */
+
+/* -----------------------------------Latest trending carousel----------------------------------- */
+
+.englishLatestTrending{
+     margin-top: 18vh;
+}
+
+
+.englishLatestTrendingText{
+     font-size: x-large;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.englishLatestTrendingCarousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.englishleftButtonCarousel-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.englishrightButtonCarousel-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+
+     /* -----------------------------------Superheroes carousel----------------------------------- */
+
+
+     .englishsuperheroes{
+          margin-top: 3vh;
+     }
+     
+     
+     .englishSuperheroesText{
+          font-size: x-large;
+          margin-left: 20px;
+          /* position: absolute; */
+          /* top: 44vh; */
+          z-index: -1000000;
+     }
+     
+     .englishSuperheroesCarousel{
+          display: flex;
+          position: relative;
+          overflow: hidden;
+     }
+     
+     .englishleftButtonCarousel-superheroes{
+          position: absolute;
+          top: 77vh;
+          z-index: 1000;
+          left: 0;
+          padding-top: 5px;
+     }
+     
+     .englishrightButtonCarousel-superheroes{
+          position: absolute;
+          top: 77vh;
+          z-index: 1000;
+          right:0;
+          padding-top: 5px;
+     }

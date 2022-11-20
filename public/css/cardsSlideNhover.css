@@ -1,0 +1,53 @@
+
+.latestCards{
+     margin: 0px 10px;
+}
+
+.cardsImages{
+     height: 15rem; 
+     border-radius: 5px;
+     border: 10px solid #1B1736;
+}
+
+.cardsImages:hover{
+     border: 10px solid rgb(57, 55, 70, 0.5);
+}
+
+
+.carouselButtonEffect{
+     opacity: 0.4;
+}
+
+.bi-chevron-left{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right{
+     width: 40px;
+     height: 40px;
+
+}
+.slideRightEffect{
+     animation: slideRight 700ms forwards ease-in;
+}
+
+@keyframes slideRight{
+     to{
+          margin-left: -100vw;
+     }
+}
+
+.slideLeftEffect{
+     animation: slideLeft 700ms forwards ease-in;
+}
+
+@keyframes slideLeft{
+     from{
+          margin-left: -100vw;
+     }
+     to{
+          margin-left: 0px;
+     }
+}
