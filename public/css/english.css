@@ -76,3 +76,31 @@
           right:0;
           padding-top: 5px;
      }
+
+
+
+     /* best for you cards */
+
+     .best-for-you{
+         text-align: center;
+         margin: 20px 0px;
+     }
+     
+     .best-for-you-img{
+          width: 400px;
+          height: 225px; 
+          border-radius: 5px;
+          border: 10px solid #1B1736;
+          margin: 0px 10px;
+     }
+     
+     .best-for-you-img:hover{
+          border: 10px solid rgb(57, 55, 70, 0.5);
+     }
+
+     .best-for-you-text{
+          font-size: xx-large;
+          margin-left: 20px;
+          font-weight: 700;
+     }
+     

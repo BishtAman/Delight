@@ -14,12 +14,16 @@ app.get('/', (req, res)=>{
      res.render('index')
 })
 
-app.get('/Kdrama', (req, res)=>{
-     res.render('Kdrama')
+app.get('/Korean', (req, res)=>{
+     res.render('Korean')
 })
 
 app.get('/english', (req, res)=>{
      res.render('english')
+})
+
+app.get('/kids', (req, res)=>{
+     res.render('kids')
 })
 
 

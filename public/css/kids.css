@@ -1,0 +1,23 @@
+.kids-section{
+     text-align: center;
+     margin: 20px 0px;
+     margin-top: 18vh;
+ }
+ 
+ .kids-img{
+      width: 400px;
+      height: 225px; 
+      border-radius: 5px;
+      border: 10px solid #1B1736;
+      margin: 0px 10px;
+ }
+ 
+ .kids-img:hover{
+      border: 10px solid rgb(57, 55, 70, 0.5);
+ }
+
+ .kids-section-text{
+      font-size: xx-large;
+      margin-left: 20px;
+      font-weight: 700;
+ }

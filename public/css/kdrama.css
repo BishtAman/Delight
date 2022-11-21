@@ -9,6 +9,7 @@
 
 .KdramaLatestTrendingText{
      font-size: x-large;
+     font-weight: 700;
      margin-left: 20px;
      position: absolute;
      top: 15vh;
@@ -35,5 +36,158 @@
      z-index: 1000;
      right:0;
      padding-top: 5px;
+
+}
+
+
+
+.korean-top-rated{
+     margin-to8: 5vh;
+}
+
+
+.korean-top-rated-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.korean-top-rated-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.koreanleftButtonCarousel-top-rated{
+     position: absolute;
+     top: 72vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.koreanrightButtonCarousel-top-rated{
+     position: absolute;
+     top: 72vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left1{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right1{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+.korean-most-watched{
+     margin-top: 5vh;
+}
+
+
+.korean-most-watched-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.korean-most-watched-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.koreanleftButtonCarousel-most-watched{
+     position: absolute;
+     top: 114vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.koreanrightButtonCarousel-most-watched{
+     position: absolute;
+     top: 114vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left2{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right2{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+
+.korean-best-for-you{
+     margin-top: 5vh;
+}
+
+
+.korean-best-for-you-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.korean-best-for-you-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.koreanleftButtonCarousel-best-for-you{
+     position: absolute;
+     top: 155vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.koreanrightButtonCarousel-best-for-you{
+     position: absolute;
+     top: 155vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left3{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right3{
+     width: 40px;
+     height: 40px;
 
 }

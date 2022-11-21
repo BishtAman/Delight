@@ -8,7 +8,7 @@ nav {
      /* box-shadow: 0px 0px 66px #1c0179; */
      position: fixed;
      top: 0;
-     z-index: 10;
+     z-index: 10000000000;
      width: 100vw;
      /* background-color: white; */
 }

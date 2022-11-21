@@ -1,4 +1,6 @@
 
+// latest trending =============>
+
 $('.right1').on('click', function(){
      console.log('here')
      $('.right1').addClass('carouselButtonEffect')
@@ -10,7 +12,7 @@ $('.right1').on('click', function(){
      
      setTimeout(() => {
          $('.bi-chevron-right').css('visibility','hidden')
-         $('.bi-chevron-right').css('visibility','visible')
+         $('.bi-chevron-left').css('visibility','visible')
      }, 700);
  })
  
@@ -24,11 +26,13 @@ $('.right1').on('click', function(){
  
      setTimeout(() => {
          $('.bi-chevron-left').css('visibility','hidden')
-         $('.bi-chevron-left').css('visibility','visible')
+         $('.bi-chevron-right').css('visibility','visible')
      }, 700);
  })
 
 
+
+// superheroes ================>
 
 $('.right2').on('click', function(){
      console.log('here')
@@ -41,7 +45,7 @@ $('.right2').on('click', function(){
      
      setTimeout(() => {
          $('.bi-chevron-right').css('visibility','hidden')
-         $('.bi-chevron-right').css('visibility','visible')
+         $('.bi-chevron-left').css('visibility','visible')
      }, 700);
  })
  
@@ -55,6 +59,6 @@ $('.right2').on('click', function(){
  
      setTimeout(() => {
          $('.bi-chevron-left').css('visibility','hidden')
-         $('.bi-chevron-left').css('visibility','visible')
+         $('.bi-chevron-right').css('visibility','visible')
      }, 700);
  })
