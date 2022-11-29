@@ -142,3 +142,13 @@ $('.login-submit-button').on('click', function(){
         $('.login-submit-button').removeClass('login-submit-button-blink')
     }, 200);
 })
+
+var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}

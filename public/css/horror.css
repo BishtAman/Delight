@@ -1,0 +1,194 @@
+
+
+
+.horror-top-trending{
+     margin-top: 22vh;
+    
+}
+
+
+.horror-top-trending-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     position: absolute;
+     top: 15vh;
+     z-index: -1000000;
+}
+
+.slide0{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     overflow: hidden;
+}
+
+.horrorleftButtonCarousel-top-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.horrorrightButtonCarousel-top-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+
+
+
+.horror-top-rated{
+     margin-top: 20vh;
+}
+
+
+.horror-top-rated-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.horror-top-rated-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.horrorleftButtonCarousel-top-rated{
+     position: absolute;
+     top: 37vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.horrorrightButtonCarousel-top-rated{
+     position: absolute;
+     top: 37vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left1{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right1{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+.horror-most-watched{
+     margin-top: 5vh;
+}
+
+
+.horror-most-watched-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.horror-most-watched-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.horrorleftButtonCarousel-most-watched{
+     position: absolute;
+     top: 85vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.horrorrightButtonCarousel-most-watched{
+     position: absolute;
+     top: 85vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left2{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right2{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+
+.horror-best-for-you{
+     margin-top: 5vh;
+}
+
+
+.horror-best-for-you-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.horror-best-for-you-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.horrorleftButtonCarousel-best-for-you{
+     position: absolute;
+     top: 129vh; 
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.horrorrightButtonCarousel-best-for-you{
+     position: absolute;
+     top: 129vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left3{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right3{
+     width: 40px;
+     height: 40px;
+
+}

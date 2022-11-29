@@ -1,0 +1,194 @@
+
+
+
+.action-top-trending{
+     margin-top: 22vh;
+    
+}
+
+
+.action-top-trending-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     position: absolute;
+     top: 15vh;
+     z-index: -1000000;
+}
+
+.slide0{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     overflow: hidden;
+}
+
+.actionleftButtonCarousel-top-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.actionrightButtonCarousel-top-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+
+
+
+.action-top-rated{
+     margin-top: 20vh;
+}
+
+
+.action-top-rated-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.action-top-rated-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.actionleftButtonCarousel-top-rated{
+     position: absolute;
+     top: 37vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.actionrightButtonCarousel-top-rated{
+     position: absolute;
+     top: 37vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left1{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right1{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+.action-most-watched{
+     margin-top: 5vh;
+}
+
+
+.action-most-watched-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.action-most-watched-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.actionleftButtonCarousel-most-watched{
+     position: absolute;
+     top: 85vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.actionrightButtonCarousel-most-watched{
+     position: absolute;
+     top: 85vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left2{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right2{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+
+.action-best-for-you{
+     margin-top: 5vh;
+}
+
+
+.action-best-for-you-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.action-best-for-you-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.actionleftButtonCarousel-best-for-you{
+     position: absolute;
+     top: 129vh; 
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.actionrightButtonCarousel-best-for-you{
+     position: absolute;
+     top: 129vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left3{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right3{
+     width: 40px;
+     height: 40px;
+
+}

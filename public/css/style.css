@@ -27,9 +27,9 @@ a {
 }
 
 .movieBanner {
-     width: 76vw;
-     height: 600px;
-     margin-top: 70px;
+     width: 64vw;
+     height: 430px;
+     margin-top: 148px;
 }
 
 
@@ -38,11 +38,13 @@ a {
      flex-direction: column;
      margin-top: 25px;
      justify-content: center;
+     align-items: center;
 }
 
 .categoryBanner img {
-     width: 1430px;
+     width: 100vw;
      height: 628.85px;
+
 }
 
 footer {
@@ -53,29 +55,76 @@ footer p {
      text-align: center;
 }
 
+.aliveContent{
+     position: relative;
+}
+
+.banner {
+     margin-bottom: 30px;
+}
+
+
+.aliveContent:hover{
+     animation: gayab 2s forwards ease-in-out;
+}
+
+@keyframes gayab{
+     from{
+          display: inline-block;
+     }
+     to{
+          display: none;
+     }
+}
+
+#videosList {
+     font-size: 20px;
+     text-align: center;
+    }
+    
+    .video {
+      background-image: url('.\images\images\moviesBanner.png');
+      background-size: cover;
+      border-radius: 15px 15px;
+      height: 330px;
+      width: 600px;
+      margin: 100px 20px 0px 20px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    
+    .thevideo{
+     width: 100%;
+    }
+    /* Hide Play button + controls on iOS */
+    video::-webkit-media-controls {
+        display:none !important;
+    }
+
+/* 
 .aliveContent:hover::before {
      content: 'Watch Now!';
      border: 1px solid white;
      padding: 0px 11px;
      position: absolute;
-     bottom: -50px;
      opacity: 0;
-     font-size: 44px;
-     left: 220px;
+     font-size: 30px;
+     left: 5vw;
+     z-index: 100000000000;
      animation: cover 200ms forwards ease-out;
 }
 
 .aliveContent::before {
+     z-index: 100000000000;
      content: 'Watch Now!';
      position: absolute;
      border: 1px solid white;
      padding: 0px 11px;
-     bottom: -50px;
      opacity: 0;
-     font-size: 44px;
-     left: 220px;
+     font-size: 30px;
+     left: 5vw;
      animation: coverReverse 200ms forwards ease-in-out;
-}
+} */
 
 @keyframes cover {
      33% {
@@ -89,14 +138,14 @@ footer p {
      }
 
      100% {
-          bottom: 40px;
+          bottom: 20px;
           opacity: 1;
      }
 }
 
 @keyframes coverReverse {
      from {
-          bottom: 40px;
+          bottom: 20px;
           opacity: 1;
 
      }

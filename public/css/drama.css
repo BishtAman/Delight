@@ -1,0 +1,194 @@
+
+
+
+.drama-top-trending{
+     margin-top: 22vh;
+    
+}
+
+
+.drama-top-trending-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     position: absolute;
+     top: 15vh;
+     z-index: -1000000;
+}
+
+.slide0{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     overflow: hidden;
+}
+
+.dramaleftButtonCarousel-top-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.dramarightButtonCarousel-top-trending{
+     position: absolute;
+     top: 36vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+
+
+
+.drama-top-rated{
+     margin-top: 20vh;
+}
+
+
+.drama-top-rated-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.drama-top-rated-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.dramaleftButtonCarousel-top-rated{
+     position: absolute;
+     top: 37vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.dramarightButtonCarousel-top-rated{
+     position: absolute;
+     top: 37vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left1{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right1{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+.drama-most-watched{
+     margin-top: 5vh;
+}
+
+
+.drama-most-watched-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.drama-most-watched-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.dramaleftButtonCarousel-most-watched{
+     position: absolute;
+     top: 85vh;
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.dramarightButtonCarousel-most-watched{
+     position: absolute;
+     top: 85vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left2{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right2{
+     width: 40px;
+     height: 40px;
+
+}
+
+
+
+
+
+.drama-best-for-you{
+     margin-top: 5vh;
+}
+
+
+.drama-best-for-you-text{
+     font-size: x-large;
+     font-weight: 700;
+     margin-left: 20px;
+     /* position: absolute; */
+     /* top: 15vh; */
+     z-index: -1000000;
+}
+
+.drama-best-for-you-Carousel{
+     display: flex;
+     position: relative;
+     overflow: hidden;
+}
+
+.dramaleftButtonCarousel-best-for-you{
+     position: absolute;
+     top: 129vh; 
+     z-index: 1000;
+     left: 0;
+     padding-top: 5px;
+}
+
+.dramarightButtonCarousel-best-for-you{
+     position: absolute;
+     top: 129vh;
+     z-index: 1000;
+     right:0;
+     padding-top: 5px;
+
+}
+.bi-chevron-left3{
+     width: 40px;
+     height: 40px;
+     
+}
+
+.bi-chevron-right3{
+     width: 40px;
+     height: 40px;
+
+}
