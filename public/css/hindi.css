@@ -1,0 +1,194 @@
+
+
+
+.hindi-top-trending{
+    margin-top: 22vh;
+   
+}
+
+
+.hindi-top-trending-text{
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 20px;
+    position: absolute;
+    top: 15vh;
+    z-index: -1000000;
+}
+
+.slide0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+.hindileftButtonCarousel-top-trending{
+    position: absolute;
+    top: 36vh;
+    z-index: 1000;
+    left: 0;
+    padding-top: 5px;
+}
+
+.hindirightButtonCarousel-top-trending{
+    position: absolute;
+    top: 36vh;
+    z-index: 1000;
+    right:0;
+    padding-top: 5px;
+
+}
+
+
+
+.hindi-top-rated{
+    margin-top: 20vh;
+}
+
+
+.hindi-top-rated-text{
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 20px;
+    /* position: absolute; */
+    /* top: 15vh; */
+    z-index: -1000000;
+}
+
+.hindi-top-rated-Carousel{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.hindileftButtonCarousel-top-rated{
+    position: absolute;
+    top: 37vh;
+    z-index: 1000;
+    left: 0;
+    padding-top: 5px;
+}
+
+.hindirightButtonCarousel-top-rated{
+    position: absolute;
+    top: 37vh;
+    z-index: 1000;
+    right:0;
+    padding-top: 5px;
+
+}
+.bi-chevron-left1{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.bi-chevron-right1{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+.hindi-most-watched{
+    margin-top: 5vh;
+}
+
+
+.hindi-most-watched-text{
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 20px;
+    /* position: absolute; */
+    /* top: 15vh; */
+    z-index: -1000000;
+}
+
+.hindi-most-watched-Carousel{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.hindileftButtonCarousel-most-watched{
+    position: absolute;
+    top: 85vh;
+    z-index: 1000;
+    left: 0;
+    padding-top: 5px;
+}
+
+.hindirightButtonCarousel-most-watched{
+    position: absolute;
+    top: 85vh;
+    z-index: 1000;
+    right:0;
+    padding-top: 5px;
+
+}
+.bi-chevron-left2{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.bi-chevron-right2{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+
+.hindi-best-for-you{
+    margin-top: 5vh;
+}
+
+
+.hindi-best-for-you-text{
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 20px;
+    /* position: absolute; */
+    /* top: 15vh; */
+    z-index: -1000000;
+}
+
+.hindi-best-for-you-Carousel{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.hindileftButtonCarousel-best-for-you{
+    position: absolute;
+    top: 129vh; 
+    z-index: 1000;
+    left: 0;
+    padding-top: 5px;
+}
+
+.hindirightButtonCarousel-best-for-you{
+    position: absolute;
+    top: 129vh;
+    z-index: 1000;
+    right:0;
+    padding-top: 5px;
+
+}
+.bi-chevron-left3{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.bi-chevron-right3{
+    width: 40px;
+    height: 40px;
+
+}

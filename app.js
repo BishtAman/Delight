@@ -53,6 +53,15 @@ app.get('/drama', (req, res)=>{
 app.get('/horror', (req, res)=>{
      res.render('horror')
 })
+app.get('/hindi', (req, res)=>{
+     res.render('hindi')
+})
+app.get('/tamil', (req, res)=>{
+     res.render('tamil')
+})
+app.get('/telegu', (req, res)=>{
+     res.render('telegu')
+})
 
 app.get('/test', (req, res)=>{
      res.render('z-houseofdragons')
