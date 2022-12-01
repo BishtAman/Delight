@@ -54,6 +54,10 @@ app.get('/horror', (req, res)=>{
      res.render('horror')
 })
 
+app.get('/test', (req, res)=>{
+     res.render('z-houseofdragons')
+})
+
 
 app.listen(5000,()=>{
      console.log('Server running successfully');

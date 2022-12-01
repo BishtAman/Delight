@@ -1,0 +1,32 @@
+.movie{
+     margin: 5vh 4vw 5vh 2vw;
+     margin-top: 15vh;
+     background: rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+     padding: 25px;
+     font-weight: 500;
+     /* color: black; */
+     display: flex;
+     justify-content: space-between;
+}
+.moviedetails{
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     padding: 10px;
+}
+
+h4{
+     letter-spacing: 1px;
+     font-weight: 500;
+}
+
+h3{
+     letter-spacing: 1px;
+     font-weight: 500;
+}
+
+.movie-plot{
+     letter-spacing: 1px;
+     
+}
